@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.soliataire.app{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.dealt-cards{
+  display: flex;
+}
+.cards-placeholder{
+border: 1px dotted black;
+height: 210px;
+width: 150px;
+background-image: url('/public/backofcard.jpeg');
+background-size: cover;
+cursor: pointer;
+}
+.ace-column{
+  border: 1px dotted black;
+  height: 210px;
+  width: 150px;
+  margin-bottom: 50px;
+  margin-right: 3px;
+  cursor: pointer;
+  
+}
+.top-box{
+  display: flex;
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.deck-box{
+display: flex;
+margin-left: 160px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.column {
+  margin-right: 5px;
+  width: 150px;
+  height: 150px;
+  position: relative;
 }
