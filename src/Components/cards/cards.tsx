@@ -1,6 +1,6 @@
 import { CSSProperties } from "react";
 import { Card } from "../../types";
-import "./card.css";
+import "./cards.css";
 
 interface cardComponentProps {
   card: Card;
